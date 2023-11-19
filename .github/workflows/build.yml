@@ -8,7 +8,7 @@ on:
       - '*'
 
 env:
-  PROJECT_NAME: TUTORIALMOD
+  PROJECT_NAME: Hypersonic clone
   
   MOD_HELPER_NAME: Btd6ModHelper
   BLOONSTD6: ./BloonsTD6

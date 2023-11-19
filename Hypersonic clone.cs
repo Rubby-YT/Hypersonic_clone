@@ -1,20 +1,20 @@
 using MelonLoader;
 using BTD_Mod_Helper;
-using TUTORIALMOD;
+using Hypersonic_clone;
 using Il2CppAssets.Scripts.Models;
 using BTD_Mod_Helper.Extensions;
 using Il2CppAssets.Scripts.Models.Towers.Weapons;
 
-[assembly: MelonInfo(typeof(TUTORIALMOD.TUTORIALMOD), ModHelperData.Name, ModHelperData.Version, ModHelperData.RepoOwner)]
+[assembly: MelonInfo(typeof(Hypersonic_clone.Hypersonic_clone), ModHelperData.Name, ModHelperData.Version, ModHelperData.RepoOwner)]
 [assembly: MelonGame("Ninja Kiwi", "BloonsTD6")]
 
-namespace TUTORIALMOD;
+namespace Hypersonic_clone;
 
-public class TUTORIALMOD : BloonsTD6Mod
+public class Hypersonic_clone : BloonsTD6Mod
 {
     public override void OnApplicationStart()
     {
-        ModHelper.Msg<TUTORIALMOD>("TUTORIALMOD loaded!");
+        ModHelper.Msg<Hypersonic_clone>("Hypersonic_clone loaded!");
 
     }
     public override void OnNewGameModel(GameModel result)
